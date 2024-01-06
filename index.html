@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Generador QR</title>
+</head>
+
+<body>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">
+                    <div class="titulo"></div>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <input type="text" id="linkUrl">
+                </td>
+                <td>
+                    <button>Generar QR</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2">
+                    <div id="app"></div>
+                </td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2">
+                    <button id="descarga">Ampliar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script type="module" src="./code.js"></script>
+</body>
+
+</html>
